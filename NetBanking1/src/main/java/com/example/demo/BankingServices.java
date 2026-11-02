@@ -9,7 +9,7 @@ public class BankingServices {
 	
 	@GetMapping("icici/welcome")
 	String welcome() {
-		return "welcome to icici bank";
+		return message;
 	}
 	
 	@GetMapping("icici/openAccount/{name}/{address}/{email}")
